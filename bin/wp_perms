@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo -e "Enforcing "
+echo -e "Enforcing permissions"
 
 # chown -R applicious:applicious .
 
