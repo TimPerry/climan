@@ -1,0 +1,675 @@
+D, [2013-05-11T17:53:17.436874 #3159] DEBUG -- : START 8 colors  --------- ./climan.rb win:  
+D, [2013-05-11T17:53:17.436978 #3159] DEBUG -- : XXX APP CONFIG: {}  
+D, [2013-05-11T17:53:17.440014 #3159] DEBUG -- : XXX:  HOTKEY true 
+E, [2013-05-11T17:53:17.440084 #3159] ERROR -- : ERROR WARN #<RubyCurses::MenuLink:0x007fc49a8c1d90> COULD NOT SET MNEMONIC since form NIL
+D, [2013-05-11T17:53:17.440253 #3159] DEBUG -- : XXX:  HOTKEY true 
+E, [2013-05-11T17:53:17.440299 #3159] ERROR -- : ERROR WARN #<RubyCurses::MenuLink:0x007fc49a8b5680> COULD NOT SET MNEMONIC since form NIL
+D, [2013-05-11T17:53:17.440425 #3159] DEBUG -- : XXX:  HOTKEY true 
+E, [2013-05-11T17:53:17.440468 #3159] ERROR -- : ERROR WARN #<RubyCurses::MenuLink:0x007fc49a8b1990> COULD NOT SET MNEMONIC since form NIL
+D, [2013-05-11T17:53:17.440590 #3159] DEBUG -- : XXX:  HOTKEY true 
+E, [2013-05-11T17:53:17.440629 #3159] ERROR -- : ERROR WARN #<RubyCurses::MenuLink:0x007fc49a8ae0b0> COULD NOT SET MNEMONIC since form NIL
+D, [2013-05-11T17:53:17.440687 #3159] DEBUG -- :  form repaint:,  , r -1 c -1 
+D, [2013-05-11T17:53:17.440831 #3159] DEBUG -- :  def print_top_right(Main menu) 80 80 
+D, [2013-05-11T17:53:17.440886 #3159] DEBUG -- : XXX:WHEN  calling when_forms commands
+D, [2013-05-11T17:53:17.440923 #3159] DEBUG -- :  #<RubyCurses::MenuLink:0x007fc49a8c1d90> setting MNEMO to D 100, true 
+D, [2013-05-11T17:53:17.440960 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:17.440987 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.441027 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:17.441147 #3159] DEBUG -- : XXX:WHEN  calling when_forms commands
+D, [2013-05-11T17:53:17.441178 #3159] DEBUG -- :  #<RubyCurses::MenuLink:0x007fc49a8b5680> setting MNEMO to U 117, true 
+D, [2013-05-11T17:53:17.441214 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:17.441242 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.441277 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:17.441403 #3159] DEBUG -- : XXX:WHEN  calling when_forms commands
+D, [2013-05-11T17:53:17.441433 #3159] DEBUG -- :  #<RubyCurses::MenuLink:0x007fc49a8b1990> setting MNEMO to C 99, true 
+D, [2013-05-11T17:53:17.441478 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:17.441503 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.441537 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:17.441643 #3159] DEBUG -- : XXX:WHEN  calling when_forms commands
+D, [2013-05-11T17:53:17.441673 #3159] DEBUG -- :  #<RubyCurses::MenuLink:0x007fc49a8ae0b0> setting MNEMO to Q 113, true 
+D, [2013-05-11T17:53:17.441708 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:17.441732 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.441769 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:17.441848 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:17.441886 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:17.441925 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Main menu, Domain management
+D, [2013-05-11T17:53:17.441956 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:17.441992 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8c1d90> r = 9 , c = 14  
+D, [2013-05-11T17:53:17.442022 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 10 , c = , parent:   
+W, [2013-05-11T17:53:17.442047 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:17.442071 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:17.442104 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:17.442183 #3159] DEBUG -- :  def print_top_right(Domain management) 80 80 
+D, [2013-05-11T17:53:17.444998 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:17.445054 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:17.445100 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:17.445184 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:17.445211 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.445247 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:17.445308 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:17.445334 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.445369 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:17.445429 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:17.445455 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:17.445488 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:17.445544 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:17.445913 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:18.049277 #3159] DEBUG -- : firing PRESS Domain management
+D, [2013-05-11T17:53:18.049552 #3159] DEBUG -- : inside def fire_handler evt:PRESS, o: RubyCurses::ActionEvent
+D, [2013-05-11T17:53:18.049625 #3159] DEBUG -- : #<RubyCurses::MenuLink:0x007fc49a8c1d90> called EventHandler firehander , PRESS
+D, [2013-05-11T17:53:18.104341 #3159] DEBUG -- : XXX APP CONFIG: {}  
+D, [2013-05-11T17:53:18.108367 #3159] DEBUG -- : XXX:  INSIDE LISTBINDING FOR RubyCurses::List 
+D, [2013-05-11T17:53:18.110804 #3159] DEBUG -- :  form repaint:,  , r -1 c -1 
+D, [2013-05-11T17:53:18.110866 #3159] DEBUG -- : BASICLIST REPAINT WILL HAPPEN 0 
+D, [2013-05-11T17:53:18.110908 #3159] DEBUG -- : basiclistbox repaint  lst_domains graphic Window::ROOTW
+D, [2013-05-11T17:53:18.111693 #3159] DEBUG -- :  rbasiclistbox 2, w:80 , maxlen: 
+D, [2013-05-11T17:53:18.112417 #3159] DEBUG -- : inside def fire_handler evt:ENTER_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:18.112479 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 6 , c = , parent:   
+D, [2013-05-11T17:53:18.112515 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::List
+D, [2013-05-11T17:53:18.112565 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 6 , c = , parent:   
+D, [2013-05-11T17:53:18.112606 #3159] DEBUG -- :  set_form_col in rlistbox 0+ left_margin 0 ( 1 ) 
+D, [2013-05-11T17:53:18.112631 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 1, parent:   
+D, [2013-05-11T17:53:18.112656 #3159] DEBUG -- :  form repaint:,  , r 6 c 1 
+D, [2013-05-11T17:53:18.112685 #3159] DEBUG -- : setpos : () 6 1 XXX
+D, [2013-05-11T17:53:18.113199 #3159] DEBUG -- : setpos : () 6 1 XXX
+D, [2013-05-11T17:53:18.977830 #3159] DEBUG -- : XXX:  _process key keycode 258 Proc, RubyCurses::List 
+D, [2013-05-11T17:53:18.977979 #3159] DEBUG -- : rwidget BLOCK called _process_key 
+D, [2013-05-11T17:53:18.978073 #3159] DEBUG -- : inside def fire_handler evt:LEAVE_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:18.978228 #3159] DEBUG -- : inside def fire_handler evt:ENTER_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:18.978311 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 7 , c = , parent:   
+D, [2013-05-11T17:53:18.978388 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::List:0x007fc499059b40> got 0  
+D, [2013-05-11T17:53:18.978453 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:18.978514 #3159] DEBUG -- :  form repaint:,  , r 7 c 1 
+D, [2013-05-11T17:53:18.978583 #3159] DEBUG -- : setpos : () 7 1 XXX
+D, [2013-05-11T17:53:19.649230 #3159] DEBUG -- : XXX:  _process key keycode 259 Proc, RubyCurses::List 
+D, [2013-05-11T17:53:19.649340 #3159] DEBUG -- : rwidget BLOCK called _process_key 
+D, [2013-05-11T17:53:19.649410 #3159] DEBUG -- : inside def fire_handler evt:LEAVE_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:19.649516 #3159] DEBUG -- : inside def fire_handler evt:ENTER_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:19.649577 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 6 , c = , parent:   
+D, [2013-05-11T17:53:19.649632 #3159] DEBUG -- : handled inside Form 259 from #<RubyCurses::List:0x007fc499059b40> got 0  
+D, [2013-05-11T17:53:19.649680 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:19.649726 #3159] DEBUG -- :  form repaint:,  , r 6 c 1 
+D, [2013-05-11T17:53:19.649778 #3159] DEBUG -- : setpos : () 6 1 XXX
+D, [2013-05-11T17:53:19.961464 #3159] DEBUG -- : XXX:  _process key keycode 13 Proc, RubyCurses::List 
+D, [2013-05-11T17:53:19.961609 #3159] DEBUG -- : rwidget BLOCK called _process_key 
+D, [2013-05-11T17:53:19.961792 #3159] DEBUG -- : inside def fire_handler evt:PRESS, o: RubyCurses::ActionEvent
+D, [2013-05-11T17:53:19.961873 #3159] DEBUG -- : handled inside Form 13 from #<RubyCurses::List:0x007fc499059b40> got 0  
+D, [2013-05-11T17:53:19.961938 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:19.962000 #3159] DEBUG -- :  form repaint:,  , r 6 c 1 
+D, [2013-05-11T17:53:19.962068 #3159] DEBUG -- : setpos : () 6 1 XXX
+D, [2013-05-11T17:53:20.601500 #3159] DEBUG -- : XXX:  _process key keycode 258 Proc, RubyCurses::List 
+D, [2013-05-11T17:53:20.601648 #3159] DEBUG -- : rwidget BLOCK called _process_key 
+D, [2013-05-11T17:53:20.601735 #3159] DEBUG -- : inside def fire_handler evt:LEAVE_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:20.601878 #3159] DEBUG -- : inside def fire_handler evt:ENTER_ROW, o: RubyCurses::List
+D, [2013-05-11T17:53:20.601960 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 7 , c = , parent:   
+D, [2013-05-11T17:53:20.602033 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::List:0x007fc499059b40> got 0  
+D, [2013-05-11T17:53:20.602096 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:20.602157 #3159] DEBUG -- :  form repaint:,  , r 7 c 1 
+D, [2013-05-11T17:53:20.602228 #3159] DEBUG -- : setpos : () 7 1 XXX
+D, [2013-05-11T17:53:24.785809 #3159] DEBUG -- :  INSIDE CLOSE,  
+D, [2013-05-11T17:53:24.786101 #3159] DEBUG -- :  INSIDE CLOSE,  
+D, [2013-05-11T17:53:24.786176 #3159] DEBUG -- :  CLOSING APP
+D, [2013-05-11T17:53:24.787363 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:24.787472 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:24.787548 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+W, [2013-05-11T17:53:24.787649 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8c1d90> r = 9 , c = 14  
+D, [2013-05-11T17:53:24.787729 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 10 , c = , parent:   
+W, [2013-05-11T17:53:24.787799 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:24.787877 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:24.787946 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:24.788015 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:24.788068 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:24.788168 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:24.788343 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:24.788402 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.788479 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:24.788608 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:24.788664 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.788738 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:24.788864 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:24.788919 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.788991 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:24.789105 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:24.789739 #3159] DEBUG -- : handled inside Form 13 from #<RubyCurses::MenuLink:0x007fc49a8c1d90> got 0  
+D, [2013-05-11T17:53:24.789796 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:24.789844 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:24.789905 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:24.789957 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:24.790033 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:24.790162 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:24.790218 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.790291 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:24.790435 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:24.790492 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.790566 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:24.790690 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:24.790745 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:24.790817 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:24.790929 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:25.920657 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8c1d90> got UNHANDLED  
+D, [2013-05-11T17:53:25.920757 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:25.920819 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:25.920865 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:25.920916 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Domain management, Users management
+D, [2013-05-11T17:53:25.920961 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:25.921015 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b5680> r = 11 , c = 14  
+D, [2013-05-11T17:53:25.921060 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 12 , c = , parent:   
+W, [2013-05-11T17:53:25.921098 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:25.921136 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:25.921172 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:25.921358 #3159] DEBUG -- :  def print_top_right(Users management) 80 80 
+D, [2013-05-11T17:53:25.921450 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:25.921494 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.921558 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:25.921658 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:25.921701 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:25.921759 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:25.921855 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:25.921896 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.921952 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:25.922067 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:25.922111 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.922165 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:25.922251 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:25.922400 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T17:53:25.922441 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:25.922488 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:25.922526 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.922581 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:25.922677 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:25.922720 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:25.922776 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:25.922871 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:25.922912 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.922968 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:25.923062 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:25.923103 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:25.923157 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:25.923242 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:28.145151 #3159] DEBUG -- : firing PRESS Users management
+D, [2013-05-11T17:53:28.145272 #3159] DEBUG -- : inside def fire_handler evt:PRESS, o: RubyCurses::ActionEvent
+D, [2013-05-11T17:53:28.145351 #3159] DEBUG -- : #<RubyCurses::MenuLink:0x007fc49a8b5680> called EventHandler firehander , PRESS
+D, [2013-05-11T17:53:28.145686 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:28.145760 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:28.145814 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+W, [2013-05-11T17:53:28.145881 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b5680> r = 11 , c = 14  
+D, [2013-05-11T17:53:28.145938 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 12 , c = , parent:   
+W, [2013-05-11T17:53:28.145988 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:28.146037 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:28.146083 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:28.146148 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:28.146219 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.146305 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:28.146468 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:28.146524 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:28.146600 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:28.146729 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:28.146785 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.146857 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:28.146983 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:28.147038 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.147109 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:28.147222 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:28.147329 #3159] DEBUG -- : handled inside Form 13 from #<RubyCurses::MenuLink:0x007fc49a8b5680> got 0  
+D, [2013-05-11T17:53:28.147381 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:28.147427 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:28.147485 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:28.147534 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.147604 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:28.147727 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:28.147781 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:28.147854 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:28.147976 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:28.148030 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.148102 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:28.148225 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:28.148278 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.148365 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:28.148478 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:28.753417 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8b5680> got UNHANDLED  
+D, [2013-05-11T17:53:28.753579 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:28.753679 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:28.753756 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:28.753834 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Users management, Change settings
+D, [2013-05-11T17:53:28.753902 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:28.753989 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b1990> r = 13 , c = 14  
+D, [2013-05-11T17:53:28.754063 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 14 , c = , parent:   
+W, [2013-05-11T17:53:28.754147 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:28.754213 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:28.754275 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:28.754549 #3159] DEBUG -- :  def print_top_right(Change settings) 80 80 
+D, [2013-05-11T17:53:28.754703 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:28.754788 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.754896 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:28.755067 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:28.755140 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.755244 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:28.755410 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:28.755483 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:28.755581 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:28.755768 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:28.755844 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.755916 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:28.756028 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:28.756221 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T17:53:28.756282 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:28.756343 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:28.756392 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.756494 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:28.756628 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:28.756683 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.756755 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:28.756877 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:28.756931 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:28.757011 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:28.757133 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:28.757187 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:28.757257 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:28.757372 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:29.161156 #3159] DEBUG -- : firing PRESS Change settings
+D, [2013-05-11T17:53:29.161312 #3159] DEBUG -- : inside def fire_handler evt:PRESS, o: RubyCurses::ActionEvent
+D, [2013-05-11T17:53:29.161409 #3159] DEBUG -- : #<RubyCurses::MenuLink:0x007fc49a8b1990> called EventHandler firehander , PRESS
+D, [2013-05-11T17:53:29.161850 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:29.161948 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:29.162020 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+W, [2013-05-11T17:53:29.162109 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b1990> r = 13 , c = 14  
+D, [2013-05-11T17:53:29.162183 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 14 , c = , parent:   
+W, [2013-05-11T17:53:29.162248 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:29.162311 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:29.162372 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:29.162467 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:29.162537 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.162646 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:29.162861 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:29.162935 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.163042 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:29.163211 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:29.163323 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:29.163403 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:29.163539 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:29.163594 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.163667 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:29.163778 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:29.163894 #3159] DEBUG -- : handled inside Form 13 from #<RubyCurses::MenuLink:0x007fc49a8b1990> got 0  
+D, [2013-05-11T17:53:29.163947 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:29.163992 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:29.164049 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:29.164098 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.164170 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:29.164300 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:29.164355 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.164426 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:29.164554 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:29.164608 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:29.164680 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:29.164803 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:29.164863 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.164934 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:29.165043 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:29.681247 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8b1990> got UNHANDLED  
+D, [2013-05-11T17:53:29.681407 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:29.681509 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:29.681588 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:29.681667 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Change settings, Quit
+D, [2013-05-11T17:53:29.681736 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:29.681862 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8ae0b0> r = 15 , c = 14  
+D, [2013-05-11T17:53:29.681942 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 16 , c = , parent:   
+W, [2013-05-11T17:53:29.682009 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:29.682073 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:29.682134 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T17:53:29.682407 #3159] DEBUG -- :  def print_top_right(Quit) 80 80 
+D, [2013-05-11T17:53:29.682561 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:29.682636 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.682743 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:29.682915 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:29.682989 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.683087 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:29.683269 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:29.683337 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.683411 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:29.683539 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:29.683595 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:29.683668 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:29.683780 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T17:53:29.683973 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T17:53:29.684028 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T17:53:29.684088 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:29.684139 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.684211 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:29.684336 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:29.684391 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.684463 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:29.684586 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:29.684656 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:29.684732 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:29.684857 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:29.684912 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:29.684985 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:29.685095 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T17:53:30.425108 #3159] DEBUG -- : handled inside Form 259 from #<RubyCurses::MenuLink:0x007fc49a8ae0b0> got UNHANDLED  
+D, [2013-05-11T17:53:30.425273 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.425378 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.425456 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:30.425532 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Quit, Change settings
+D, [2013-05-11T17:53:30.425599 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:30.425685 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b1990> r = 13 , c = 14  
+D, [2013-05-11T17:53:30.425761 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 14 , c = , parent:   
+W, [2013-05-11T17:53:30.425827 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:30.425891 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:30.425952 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:30.426227 #3159] DEBUG -- :  def print_top_right(Change settings) 80 80 
+D, [2013-05-11T17:53:30.426381 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.426456 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.426564 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.426735 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.426808 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.426922 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.427049 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.427103 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.427176 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.427299 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.427353 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.427424 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.427565 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:30.427760 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:30.427817 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T17:53:30.427875 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.427926 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.427998 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.428122 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.428179 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.428251 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.428373 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.428427 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.428501 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.428624 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.428678 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.428750 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.428859 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T17:53:30.625629 #3159] DEBUG -- : handled inside Form 259 from #<RubyCurses::MenuLink:0x007fc49a8b1990> got UNHANDLED  
+D, [2013-05-11T17:53:30.625792 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.625895 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.625970 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:30.626049 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Change settings, Users management
+D, [2013-05-11T17:53:30.626118 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:30.626203 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b5680> r = 11 , c = 14  
+D, [2013-05-11T17:53:30.626278 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 12 , c = , parent:   
+W, [2013-05-11T17:53:30.626346 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:30.626411 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:30.626474 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:30.626744 #3159] DEBUG -- :  def print_top_right(Users management) 80 80 
+D, [2013-05-11T17:53:30.626901 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.626976 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.627122 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.627301 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.627375 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.627475 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.627642 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.627727 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.627819 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.627946 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.628000 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.628071 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.628183 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:30.628376 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:30.628431 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T17:53:30.628492 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.628542 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.628615 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.628739 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.628794 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.628867 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.628991 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.629045 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.629117 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.629239 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.629293 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.629364 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.629477 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T17:53:30.785404 #3159] DEBUG -- : handled inside Form 259 from #<RubyCurses::MenuLink:0x007fc49a8b5680> got UNHANDLED  
+D, [2013-05-11T17:53:30.785564 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.785667 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:30.785741 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:30.785836 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Users management, Domain management
+D, [2013-05-11T17:53:30.785906 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:30.785992 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8c1d90> r = 9 , c = 14  
+D, [2013-05-11T17:53:30.786068 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 10 , c = , parent:   
+W, [2013-05-11T17:53:30.786134 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:30.786198 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:30.786260 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:30.786544 #3159] DEBUG -- :  def print_top_right(Domain management) 80 80 
+D, [2013-05-11T17:53:30.786698 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.786772 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.786883 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.787074 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.787149 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.787246 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.787419 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.787492 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.787587 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.787770 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.787825 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.787902 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.788013 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:30.788202 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:30.788256 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:30.788315 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:30.788370 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:30.788446 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:30.788599 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:30.788654 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.788732 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:30.788855 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:30.788908 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.788980 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:30.789108 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:30.789162 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:30.789233 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:30.789341 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:31.009368 #3159] DEBUG -- : handled inside Form 259 from #<RubyCurses::MenuLink:0x007fc49a8c1d90> got UNHANDLED  
+D, [2013-05-11T17:53:31.009530 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:31.009643 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:31.009723 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:31.009800 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Domain management, Quit
+D, [2013-05-11T17:53:31.009869 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:31.009955 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8ae0b0> r = 15 , c = 14  
+D, [2013-05-11T17:53:31.010031 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 16 , c = , parent:   
+W, [2013-05-11T17:53:31.010098 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:31.010163 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:31.010226 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T17:53:31.010498 #3159] DEBUG -- :  def print_top_right(Quit) 80 80 
+D, [2013-05-11T17:53:31.010654 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:31.010729 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.010837 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:31.011011 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:31.011083 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.011180 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:31.011346 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:31.011456 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.011559 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:31.011741 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:31.011809 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:31.011885 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:31.011999 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T17:53:31.012192 #3159] DEBUG -- :  form before repaint  , , ret 
+D, [2013-05-11T17:53:31.012247 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T17:53:31.012308 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:31.012358 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.012432 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:31.012559 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:31.012614 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.012686 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:31.012810 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:31.012864 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.012936 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:31.013059 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:31.013116 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:31.013189 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:31.013300 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T17:53:31.601485 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8ae0b0> got UNHANDLED  
+D, [2013-05-11T17:53:31.601664 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:31.601772 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T17:53:31.601846 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T17:53:31.601923 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Quit, Domain management
+D, [2013-05-11T17:53:31.601991 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T17:53:31.602077 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8c1d90> r = 9 , c = 14  
+D, [2013-05-11T17:53:31.602151 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 10 , c = , parent:   
+W, [2013-05-11T17:53:31.602255 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T17:53:31.602334 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T17:53:31.602396 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:31.602671 #3159] DEBUG -- :  def print_top_right(Domain management) 80 80 
+D, [2013-05-11T17:53:31.602826 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:31.602908 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:31.603020 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:31.603192 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:31.603266 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.603372 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:31.603539 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:31.603610 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.603718 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:31.603863 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:31.603918 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.603988 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:31.604098 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T17:53:31.604292 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T17:53:31.604351 #3159] DEBUG -- :  form repaint:,  , r 10 c 14 
+D, [2013-05-11T17:53:31.604413 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T17:53:31.604463 #3159] DEBUG -- : XXX: button Domain management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T17:53:31.604537 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:11 bg red v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T17:53:31.604668 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T17:53:31.604723 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.604794 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T17:53:31.604915 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T17:53:31.604969 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.605047 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T17:53:31.605187 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T17:53:31.605242 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T17:53:31.605313 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T17:53:31.605428 #3159] DEBUG -- : setpos : () 10 14 XXX
+D, [2013-05-11T19:01:11.296826 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8c1d90> got UNHANDLED  
+D, [2013-05-11T19:01:11.328006 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.328092 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.328121 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T19:01:11.328152 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Domain management, Users management
+D, [2013-05-11T19:01:11.328178 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T19:01:11.328213 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b5680> r = 11 , c = 14  
+D, [2013-05-11T19:01:11.328241 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 12 , c = , parent:   
+W, [2013-05-11T19:01:11.328265 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T19:01:11.328288 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T19:01:11.328311 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T19:01:11.328438 #3159] DEBUG -- :  def print_top_right(Users management) 80 80 
+D, [2013-05-11T19:01:11.328497 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.328542 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.328586 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.330524 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.330558 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.330595 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.330659 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.330684 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.330718 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.330805 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.330830 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.330863 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.330914 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T19:01:11.331030 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T19:01:11.331068 #3159] DEBUG -- :  form repaint:,  , r 12 c 14 
+D, [2013-05-11T19:01:11.331104 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.331128 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.331170 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.331238 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.331264 #3159] DEBUG -- : XXX: button Users management   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.331300 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:11 bg red v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.331373 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.331399 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.331434 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.331494 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.331519 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.331554 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.331606 #3159] DEBUG -- : setpos : () 12 14 XXX
+D, [2013-05-11T19:01:11.504811 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8b5680> got UNHANDLED  
+D, [2013-05-11T19:01:11.504900 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.504953 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.504982 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T19:01:11.505013 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Users management, Change settings
+D, [2013-05-11T19:01:11.505039 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T19:01:11.505073 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8b1990> r = 13 , c = 14  
+D, [2013-05-11T19:01:11.505102 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 14 , c = , parent:   
+W, [2013-05-11T19:01:11.505144 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T19:01:11.505168 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T19:01:11.505191 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T19:01:11.505306 #3159] DEBUG -- :  def print_top_right(Change settings) 80 80 
+D, [2013-05-11T19:01:11.505364 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.505392 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.505447 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.505533 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.505560 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.505596 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.505656 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.505683 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.505719 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.505792 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.505822 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.505871 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.505935 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T19:01:11.506046 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T19:01:11.506079 #3159] DEBUG -- :  form repaint:,  , r 14 c 14 
+D, [2013-05-11T19:01:11.506122 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.506146 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.506188 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.506245 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.506273 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.506305 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.506380 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.506405 #3159] DEBUG -- : XXX: button Change settings   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.506438 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:11 bg red v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.506494 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.506519 #3159] DEBUG -- : XXX: button Quit   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.506563 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:7 bg black v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.506614 #3159] DEBUG -- : setpos : () 14 14 XXX
+D, [2013-05-11T19:01:11.680945 #3159] DEBUG -- : handled inside Form 258 from #<RubyCurses::MenuLink:0x007fc49a8b1990> got UNHANDLED  
+D, [2013-05-11T19:01:11.681019 #3159] DEBUG -- : inside def fire_handler evt:LEAVE, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.681074 #3159] DEBUG -- : inside def fire_handler evt:ENTER, o: RubyCurses::MenuLink
+D, [2013-05-11T19:01:11.681104 #3159] DEBUG -- :  called EventHandler firehander , ENTER
+D, [2013-05-11T19:01:11.681135 #3159] DEBUG -- :  FPC #<RubyCurses::ApplicationHeader:0x007fc49a8d5660>: text_right Change settings, Quit
+D, [2013-05-11T19:01:11.681178 #3159] DEBUG -- : inside def fire_handler evt:PROPERTY_CHANGE, o: RubyCurses::PropertyChangeEvent
+W, [2013-05-11T19:01:11.681212 #3159]  WARN -- :  empty set_form_row in widget #<RubyCurses::MenuLink:0x007fc49a8ae0b0> r = 15 , c = 14  
+D, [2013-05-11T19:01:11.681240 #3159] DEBUG -- :  addcols 0 addrow 0 :  r = 16 , c = , parent:   
+W, [2013-05-11T19:01:11.681265 #3159]  WARN -- :   empty set_form_col 14, curpos 0  , 15 + -1  
+D, [2013-05-11T19:01:11.681288 #3159] DEBUG -- :  addcols 0 addrow 0 :  r =  , c = 14, parent:   
+D, [2013-05-11T19:01:11.681310 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T19:01:11.681440 #3159] DEBUG -- :  def print_top_right(Quit) 80 80 
+D, [2013-05-11T19:01:11.681498 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.681525 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.681567 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.681635 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.681661 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.681707 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.681767 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.681794 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.681843 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.681903 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.681929 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.681965 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.682018 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T19:01:11.682118 #3159] DEBUG -- :  form before repaint  , , ret 0
+D, [2013-05-11T19:01:11.682144 #3159] DEBUG -- :  form repaint:,  , r 16 c 14 
+D, [2013-05-11T19:01:11.682185 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8c1d90>  r:10 c:15 , white , black , D      Domain management   -    CRUD domain tools
+D, [2013-05-11T19:01:11.682209 #3159] DEBUG -- : XXX: button Domain management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.682243 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8c1d90> r:10 c:15 col:7 bg black v: D      Domain management   -    CRUD domain tools ul 0 mnem D datacolor 7 
+D, [2013-05-11T19:01:11.682303 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b5680>  r:12 c:15 , white , black , U      Users management   -    CRUD user tools
+D, [2013-05-11T19:01:11.682329 #3159] DEBUG -- : XXX: button Users management   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.682383 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b5680> r:12 c:15 col:7 bg black v: U      Users management   -    CRUD user tools ul 0 mnem U datacolor 7 
+D, [2013-05-11T19:01:11.682444 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8b1990>  r:14 c:15 , white , black , C      Change settings   -    Change how CLIMAN works
+D, [2013-05-11T19:01:11.682470 #3159] DEBUG -- : XXX: button Change settings   STATE is NORMAL color white , bg: black 
+D, [2013-05-11T19:01:11.682505 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8b1990> r:14 c:15 col:7 bg black v: C      Change settings   -    Change how CLIMAN works ul 0 mnem C datacolor 7 
+D, [2013-05-11T19:01:11.682564 #3159] DEBUG -- : BUTTON repaint : #<RubyCurses::MenuLink:0x007fc49a8ae0b0>  r:16 c:15 , white , black , Q      Quit           -    Close CLIMAN
+D, [2013-05-11T19:01:11.682602 #3159] DEBUG -- : XXX: button Quit   STATE is HIGHLIGHTED color yellow , bg: red 
+D, [2013-05-11T19:01:11.682638 #3159] DEBUG -- : button repaint :#<RubyCurses::MenuLink:0x007fc49a8ae0b0> r:16 c:15 col:11 bg red v: Q      Quit           -    Close CLIMAN ul 0 mnem Q datacolor 7 
+D, [2013-05-11T19:01:11.682691 #3159] DEBUG -- : setpos : () 16 14 XXX
+D, [2013-05-11T19:01:12.096562 #3159] DEBUG -- : firing PRESS Quit
+D, [2013-05-11T19:01:12.096682 #3159] DEBUG -- : inside def fire_handler evt:PRESS, o: RubyCurses::ActionEvent
+D, [2013-05-11T19:01:12.096756 #3159] DEBUG -- : #<RubyCurses::MenuLink:0x007fc49a8ae0b0> called EventHandler firehander , PRESS
+D, [2013-05-11T19:01:12.096859 #3159] DEBUG -- :  INSIDE CLOSE, true 
+D, [2013-05-11T19:01:12.096971 #3159] DEBUG -- :  INSIDE CLOSE, true 
+D, [2013-05-11T19:01:12.097090 #3159] DEBUG -- :  CLOSING NCURSES
+D, [2013-05-11T19:01:12.097134 #3159] DEBUG -- :  CLOSING APP
