@@ -1,0 +1,14 @@
+#! /bin/bash
+
+echo -e "Enforcing "
+
+# chown -R applicious:applicious .
+
+# directory needs to be world executable
+chmod 755 .
+
+# chagne all directory to world executable as well
+find . -type d -exec chmod 755 {} \;
+
+# now change all files to read only
+find . -type f -exec chmod 644 {} \;
