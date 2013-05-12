@@ -51,6 +51,9 @@ iptables -A INPUT -p tcp --sport 53  -j ACCEPT
 iptables -A OUTPUT -p udp --dport 53 -j ACCEPT
 iptables -A OUTPUT -p tcp --dport 53 -j ACCEPT
 
+# apt-get
+#todo!!
+
 # prevent dos
 iptables -A INPUT -p tcp --dport 80 -m limit --limit 25/minute --limit-burst 100 -j ACCEPT
 

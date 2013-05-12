@@ -6,7 +6,7 @@ require 'rbcurse/core/widgets/rlist'
 App.new do 
   
   flow :margin_top => 5, :height => FFI::NCurses.LINES-2 do
-    lb = listbox :list => ["www.springfield.local", "shelbyville.local"], :suppress_borders => false, :title => "[ Domains ]",
+    lb = listbox :list => `ls /var/www/sites`, :suppress_borders => false, :title => "[ Domains ]",
       :left_margin => 0, :width_pc => 100, :name => 'lst_domains'
   end
  
