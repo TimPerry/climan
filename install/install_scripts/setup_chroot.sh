@@ -4,7 +4,7 @@ sudo groupadd sftpusers
 
 echo -e "Adding custom sshd config\n";
 sudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
-sudo cp ../template_files/sshd_config /etc/ssh/
+sudo cp /usr/lib/climan/install/template_files/sshd_config /etc/ssh/
 
 echo -e "All done, restarting ssh:\n";
 

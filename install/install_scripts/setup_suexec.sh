@@ -10,7 +10,7 @@ sudo a2enmod fcgid suexec actions
 
 # copy the fcgi config across
 echo -e "Settting up fcgi config\n";
-sudo cp ../template_files/php5-fcgid.conf /etc/apache2/conf.d/
+sudo cp /usr/lib/climan/install/template_files/php5-fcgid.conf /etc/apache2/conf.d/
 
 # add the directory
 echo -e "Adding fcgi-bin directory\n";
@@ -18,7 +18,7 @@ sudo mkdir /var/www/fcgi-bin/
 
 # copy across the fcgi bin
 echo -e "Copying across fcgi-bin file\n";
-sudo cp ../template_files/php5-fcgi /var/www/fcgi-bin/
+sudo cp /usr/lib/climan/install/template_files/php5-fcgi /var/www/fcgi-bin/
 
 # setup permissions
 echo -e "Setting up permissions\n";
