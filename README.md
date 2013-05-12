@@ -2,6 +2,16 @@
 
 ## Install
 
+Setup hosts file e.g. 127.0.0.1 	localhost applicious.co applicious
+
+	echo "127.0.0.1		localhost <primary_domain.tld> <primary_domain>" 
+
+Set your hostname
+
+	hostname applicious
+	echo "applicious" > /etc/hostname
+
+	apt-get install git
 	git clone https://github.com/iceicetimmy/climan /usr/lib/climan
 	cd /usr/lib/climan/install
 	chmod +x install.sh
