@@ -1,8 +1,12 @@
 #! /bin/bash
 
 echo "Making install scripts executable, (enter password if needed)";
-sudo chmod -R +x install_scripts
+sudo chmod -R +x /usr/lib/climan/install_scripts
 
-./setup_lamp.sh
-./setup_chroot.sh
-./setup_suexec.sh
+for SCRIPT in /usr/lib/climan/*
+do
+	if [ -f $SCRIPT -a -x $SCRIPT ]
+	then
+		$SCRIPT
+	fi
+done

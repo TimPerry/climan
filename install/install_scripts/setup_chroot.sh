@@ -1,14 +1,14 @@
 #! /bin/bash
 echo -e "Adding sftp user group\n";
-groupadd sftpusers
+sudo groupadd sftpusers
 
 echo -e "Adding custom sshd config\n";
-mv /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
-cp ../template_files/sshd_config /etc/ssh/
+sudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+sudo cp ../template_files/sshd_config /etc/ssh/
 
 echo -e "All done, restarting ssh:\n";
 
-service ssh restart
+sudo service ssh restart
 
 echo -e "\nChroot setup, add users to the sftpusers group to lock them down.\n";
 echo -e "The users will be locked to /var/www/sites/<username>, so ensure that directory exists\n";

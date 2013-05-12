@@ -3,8 +3,9 @@
 ## Install
 
 	git clone https://github.com/iceicetimmy/climan /usr/lib/climan
-	chmod +x /usr/lib/climan/install/install.sh
-	./usr/lib/climan/install/install.sh	
+	cd /usr/lib/climan/install
+	chmod +x install.sh
+	./install.sh	
 
 ## Usage
 
@@ -17,4 +18,3 @@ You can use any of the utils by just typing their name, as the custom bash profi
 For example to view all the logs for apl_2013 you type:
 
 	weblog apl_2013
-	
