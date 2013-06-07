@@ -3,7 +3,8 @@ require_relative 'MenuItem.rb'
 class MenuManager
   
   @menu_items
-    
+  @title
+  
   def initialize
     
     # create a array to hold the menu items
@@ -11,6 +12,9 @@ class MenuManager
     
     # yield to grab the items
     yield self
+    
+    #output the menu title if it has one
+    puts @title if @title
     
     # display the menu items
     @menu_items.each_with_index do | item, i |
@@ -20,19 +24,24 @@ class MenuManager
     # prompt for input
     puts "\r\nPlease choose:\r\n"
     
-    # read the option
-    option = gets.chomp.to_i - 1
-    
-    # newline
-    puts "\r\n"
-    
-    # perform the action if input is valid
-    if option >= 0 && option <= @menu_items.length
-      @menu_items[ option ].do_action
-    else 
-      puts "Invalid option"
+    # loop untill we get valid input
+    while ( option = ( gets.chomp.to_i - 1 ) )
+  
+      # perform the action if input is valid
+      if option >= 0 && option <= @menu_items.length
+        system "clear"
+        @menu_items[ option ].do_action
+        break;
+      else 
+        puts "Invalid option, please choose again:\r\n"
+      end    
+      
     end
     
+  end
+  
+  def set_title( title ) 
+    @title = title
   end
   
   def add_item( title, &block )
