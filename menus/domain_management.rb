@@ -1,13 +1,12 @@
-require 'rbcurse/core/util/app'
-require 'rbcurse/core/include/appmethods'
-require 'rbcurse/core/widgets/rlist'
+require_relative '../classes/MenuManager.rb'
 
-# just a simple test to ensure that rbasiclistbox is running inside a container.
-App.new do 
+MenuManager.new do | menu |
   
-  flow :margin_top => 5, :height => FFI::NCurses.LINES-2 do
-    lb = listbox :list => `ls /var/www/sites`, :suppress_borders => false, :title => "[ Domains ]",
-      :left_margin => 0, :width_pc => 100, :name => 'lst_domains'
+  menu.add_item "www.forepoint.co.uk" do 
+    puts "Loading www.forepoint.co.uk details"
   end
- 
+  menu.add_item "Quit" do
+    exit
+  end
+  
 end
