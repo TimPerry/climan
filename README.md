@@ -3,10 +3,14 @@
 ## Install
 
 	apt-get install git
-	git clone https://github.com/iceicetimmy/climan /usr/lib/climan
-	cd /usr/lib/climan/install
+	git clone https://github.com/iceicetimmy/climan
+	cd climan/install
 	chmod +x install.sh
-	./install.sh	
+	./install.sh
+
+The install will then install run and install to /usr/lib/climan.
+
+A config file is also created in /etc/climan
 
 ## Usage
 

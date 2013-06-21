@@ -2,8 +2,6 @@
 
 echo -e "Enforcing permissions"
 
-# chown -R applicious:applicious .
-
 # directory needs to be world executable
 chmod 755 .
 

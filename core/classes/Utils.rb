@@ -22,32 +22,27 @@ class Utils
         puts "Invalid response, please enter y/yes or n/no: "
       end
     end
-    
   end
   
   # gets the config option if it exists
   def self.get_config_option( option )
-    
     # grab the config from file if its not already loaded
     config = get_config
     # return the option if it exists
     return config[ option ] if config[ option ]
-  
   end
-  
+
   # private methods
   private
     
   # gets the main config
   def self.get_config
-    
     begin
-      YAML.load( File.read( "config.yaml" ) 
+      YAML.load( File.read( "/etc/climan/main.conf" )
     rescue Exception => e
       puts "Failed to load config file, invalid configuration please remember to use 2 spaces and not tabs!"
       exit
     end
-    
   end
   
 end
