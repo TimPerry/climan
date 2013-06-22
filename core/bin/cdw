@@ -1,0 +1,2 @@
+#! /bin/bash
+cd `cat /etc/climan/main.conf | grep web_root |  cat /etc/climan/main.conf | grep web_root | cut -b11-`

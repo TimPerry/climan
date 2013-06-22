@@ -1,16 +1,6 @@
 #!/bin/bash
 
-PROCCOUNT=`ps -Afl | wc -l`
-PROCCOUNT=`expr $PROCCOUNT - 5`
-GROUPZ=`groups`
-
-if [[ $GROUPZ == *irc* ]]; then
-ENDSESSION=`cat /etc/security/limits.conf | grep "@irc" | grep maxlogins | awk {'print $4'}`
-PRIVLAGED="IRC Account"
-else
-ENDSESSION="Unlimited"
-PRIVLAGED="Regular User"
-fi
+WEB_ROOT=`cat /etc/climan/main.conf | grep web_root | cat /etc/climan/main.conf | grep web_root | cut -b11-`;
 
 echo -e "\033[1;32m
  _____  _     ________  ___  ___   _   _
@@ -23,20 +13,21 @@ echo -e "\033[1;32m
 \033[0;35m====: \033[1;32mSystem Data\033[0;35m :=========================================================
 
 +  \033[0;37mHostname \033[0;35m= \033[1;32m`hostname`
-\033[0;35m+   \033[0;37mAddress \033[0;35m= \033[1;32m204.93.222.167
-\033[0;35m+    \033[0;37mUptime \033[0;35m= \033[1;32m`uptime | sed 's/.*up ([^,]*), .*/1/' | sed  "s/^[ \t]*//"`
-\033[0;35m+       \033[0;37mCPU \033[0;35m= \033[1;32m4x Intel(R) Xeon(R) E5620 @ 2.40GHz
-\033[0;35m+    \033[0;37mMemory \033[0;35m= \033[1;32m`cat /proc/meminfo | grep MemTotal | awk {'print $2/1048576'} ` Gb
+\033[0;35m+   \033[0;37mAddress \033[0;35m= \033[1;32m`/sbin/ifconfig | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}' | head -n 1`
+\033[0;35m+    \033[0;37mUptime \033[0;35m= \033[1;32m`uptime | sed 's/.*up ([^,]*), .*/1/' | sed  "s/^[ \t]*//" | head -n 1`
+\033[0;35m+       \033[0;37mCPU \033[0;35m= \033[1;32m`cat /proc/cpuinfo | grep 'model name' | cut -b14- | tr -s " "`
+\033[0;35m+    \033[0;37mMemory \033[0;35m= \033[1;32m`cat /proc/meminfo | grep MemTotal | awk {'print $2/1048576'} | awk {'printf "%0.2f", $1'}` Gb
 
 \033[0;35m====: \033[1;32mDomain Stats\033[0;35m :========================================================
 
-\033[0;35m+   \033[0;37mTotal Domains \033[0;35m= \033[1;32m`find /var/www/sites -maxdepth 1 -type d  | wc -l` domains
-\033[0;35m+   \033[0;37mDomains Root \033[0;35m= \033[1;32m/var/www/sites
+\033[0;35m+   \033[0;37mTotal Domains \033[0;35m= \033[1;32m`find $WEB_ROOT -maxdepth 1 -type d  | wc -l | tr -d " "` domains
+\033[0;35m+   \033[0;37mDomains Root \033[0;35m= \033[1;32m $WEB_ROOT
 
 \033[0;35m====: \033[1;32mCLIMan Utils\033[0;35m :========================================================
 
 \033[0;35m+   \033[0;37mweblog\033[0;35m : \033[1;32m View a domains log.
 \033[0;35m+     \033[0;37mcdw \033[0;35m : \033[1;32m Changes you to the web root.
+\033[0;35m+     \033[0;37mwp_perms \033[0;35m : \033[1;32m Fixes the permissions for the wordpress install(run from wp install root)
 
 \033[0;35m============================================================================
 \033[0;37m
