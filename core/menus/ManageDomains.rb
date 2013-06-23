@@ -1,11 +1,19 @@
 require_relative '../classes/MenuManager.rb'
 require_relative '../classes/Utils.rb'
+require_relative '../classes/DatabaseManager.rb'
+
+select_domain = Proc.new { |domain|
+  load '../menus/manage_domain.rb';
+};
 
 MenuManager.new do | menu |
   
   menu.set_title "Choose domain"
-  
-  Dir.entries( '/var/www/sites' ).select { |f| menu.add_item f.capitalize unless f.match( /\./ ) }
+
+  dm = DatabaseManager.new
+  dm.query "select * from ".each do |site|
+    menu.add_item site[ 'site_name' ], select_domain
+  end
   
   # menu.add_item "Add domain" do 
 #     puts "Please enter the domain name: \n"
